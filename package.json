@@ -2,7 +2,7 @@
   "name": "css-progress-wizard",
   "repository": {
     "type": "git",
-    "url": "https://github.com/christabor/css-progress-wizard.git"
+    "url": "https://github.com/halaei/css-progress-wizard.git"
   },
   "license": "GPL-3.0",
   "devDependencies": {
@@ -10,6 +10,6 @@
     "gulp-compress": "0.0.8",
     "gulp-concat": "^2.6.0",
     "gulp-minify-css": "^1.2.3",
-    "gulp-sass": "^2.1.0"
+    "gulp-sass": "^2.1.1"
   }
 }

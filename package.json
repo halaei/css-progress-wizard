@@ -6,6 +6,10 @@
     "url": "https://github.com/halaei/css-progress-wizard.git"
   },
   "license": "GPL-3.0",
+  "files": [
+    "css",
+    "sass"
+  ],
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-compress": "0.0.8",

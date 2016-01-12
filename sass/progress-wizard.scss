@@ -187,20 +187,26 @@ $mobile-size: 400px;
 }
 
 .progress-indicator.progress-complex {
-    background-color: #f1f1f1;
     padding: 10px 5px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
 }
+
 .progress-indicator.progress-complex > li .bubble {
     height: 12px;
     width: 99%;
     border-radius: 2px;
     box-shadow: inset -5px 0 12px rgba(0, 0, 0, 0.2);
 }
+
 .progress-indicator.progress-complex > li .bubble:before,
 .progress-indicator.progress-complex > li .bubble:after {
     display: none;
+}
+
+.progress-indicator.progress-complex-box {
+    @extend .progress-indicator.progress-complex;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
 }
 
 @media handheld, screen and (max-width: $mobile-size) {
